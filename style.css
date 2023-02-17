@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #FDB813; /* light gold */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+.ul{
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.name-of-website{
+  color:white;
+ 
+}
+.product-card {
+  background-color: white;
+  border: 2px solid #FDB813; /* light gold */
+  display: inline-block;
+  margin: 20px;
+  text-align: left;
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 4px 4px 10px #ccc;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.product-card:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background-color: #FDB813; /* light gold */
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 14px 20px #ccc;
+}
+
+.product-image {
+  height: 200px;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+form {
+  width: 600px;
+  background-color: #FDB813;
+  padding: 40px;
+  border-radius: 30%;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  width: 80%;
+  margin-left: 10%;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+  margin-left: 10%;
+}
+
+button[type="submit"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #333;
+  color: #F0E68C;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #F0E68C;
+  color: #333;
+}
+.product-description,.product-title, .product-price,.product-customize{
+  padding-left: 2.2%;
+}
+
+
